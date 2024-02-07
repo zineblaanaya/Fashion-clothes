@@ -92,7 +92,7 @@ header{
 
 /* Classes */
 
-.tittle{
+.title{
     text-transform: uppercase;
     font-size: 60px;
     letter-spacing: 2px;
@@ -103,7 +103,7 @@ p{
     color: rgb(97,96,96);
     margin: 20px 0;
     letter-spacing: 2px;
-    font-size: 13px;
+    font-size: 11px;
     line-height: 25px;
 }
 
@@ -146,7 +146,7 @@ p{
 .home__button button:hover{
     background-color: #000;
     color: #EAE2D2;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s ease-out;
 }
 
 .home__about-us{
@@ -160,14 +160,14 @@ p{
     height: 600px;
     flex-direction: column;
     background-color: #EAE2D2;
-    transition: 0.5s ease-out;
-    overflow: hidden;
+    transition: 0.6s ease-in-out;
+    overflow:hidden;
     width: 0%;
 }
 
 .home__about-us img{
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -186,3 +186,90 @@ border-left: 1px solid #000;
     color: #000;
 }
  /*home */
+
+ /* Best sales */
+
+ .best-sales{
+     padding: 20px 8%;
+ }
+
+ .best-sales__product{
+     margin-top: 45px;
+     display: grid;
+     grid-template-columns: repeat(7,1fr);
+     grid-template-rows: repeat(6,1fr);
+     grid-column-gap: 10px;
+     grid-row-gap: 10px;
+     height: 80vh;
+ }
+
+ .div1{
+     grid-area: 1/1/6/3;
+ }
+
+ .div2{
+     grid-area: 2/3/7/5;
+ }
+
+ .div3{
+    grid-area: 1/5/7/6;
+}
+
+ .div4{
+    grid-area: 1/3/2/5;
+}
+ .div5{
+    grid-area: 6/1/7/3;
+}
+ .div6{
+    grid-area: 1/6/6/8;
+}
+ .div7{
+    grid-area: 6/6/7/8;
+}
+
+.best-sales__product div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: grayscale(100%);
+    transition: 0.5s ease-out;
+}
+
+.best-sales__product div img:hover{
+    filter: grayscale(0);    
+}
+
+.best-sales__product span{
+    color: #5e493a;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+
+.div5,.div4,.div7,.div3{
+    border: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div3{
+    width: 170px;
+    background-color: #000;
+}
+
+.div3 span{
+    transform: rotate(-90deg);
+    color:#EAE2D2;
+    font-size: 60px;
+}
+ 
+ /* Best sales */
+
+
+ /* Image section */
+ /* Image section */
+
+
+
