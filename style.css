@@ -308,8 +308,130 @@ margin: 0;
 margin-top: 20px;
 box-shadow: 0 0 8px rgba(0,0,0,0.2);
 }
-
  /* Image section */
+
+
+ /* Footer */
+
+ footer{
+     display: grid;
+     grid-template-columns: repeat(9,1fr);
+     grid-template-rows: repeat(3,1fr);
+     grid-column-gap: 35px;
+     grid-row-gap:0px;
+     padding: 35px 8%;
+     margin-top:35px;
+     text-transform: uppercase;
+ }
+
+ .col1{
+     grid-area:1/1/4/4;
+     
+ }
+ .col2{
+     grid-area:1/4/4/6;
+ }
+
+ .col3{
+     grid-area:1/6/4/8;
+ }
+ .col4{
+     grid-area:1/8/4/10;
+ }
+
+ .col2, .col3{
+     display: flex;
+     flex-direction: column;
+ }
+
+ .col4{
+     text-align: center;
+ }
+
+ .footer__newsletter{
+     border: solid 1px #000;
+     box-shadow: 0 0 8px rgba(0,0,0,0.1);
+     width: 85%;
+     display: flex;
+     justify-content: space-between;
+     padding: 10px;
+ }
+
+ .footer__newsletter input{
+     width: 75%;
+     background-color: transparent;
+     border: 0;
+     outline: 0;
+ }
+
+ .footer__newsletter button{
+     width: 76px;
+     background-color: transparent;
+     border: 0;
+     height: 100%;
+     transition: 0.2s;
+     cursor: pointer;
+ }
+
+ .footer__newsletter button:hover{
+     font-weight: bold;
+ }
+ .icons{
+     display: flex;
+ }
+
+ .icons i {
+     border: 1px solid #000;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 50px;
+     width: 50px;
+     margin-right: 20px;
+     font-size: 14px;
+     border-radius: 50px;
+     transition: 0.5s ease-out;
+ }
+
+ .icons i:hover{
+     background-color: #000;
+     color: #EAE2D2;
+ }
+
+ .small_title{
+     padding: 10px 0;
+     border-bottom: 1px solid #000;
+ }
+
+ .col2 a,.col3 a{
+     transition: 0.5s ease-out;
+     margin: 5px 0;
+ }
+
+ .col2 a:hover,.col3 a:hover{
+     font-weight: 500;
+ }
+
+.col4 button{
+    border: 1px solid #000;
+    height: 150px;
+    width: 150px;
+    background-color: transparent;
+    border-radius: 50%;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+    transition: 0.5s ease-out;
+}
+
+.col4 button:hover{
+    background-color: #000;
+    color: #EAE2D2;
+}
+
+ /* Footer */
+
+
 
 
 
