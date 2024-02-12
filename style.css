@@ -487,6 +487,11 @@ box-shadow: 0 0 8px rgba(0,0,0,0.2);
         padding-bottom: 15px ;
     }
 
+    .header__menu a{ 
+        padding-bottom: 1px;  
+    }
+    
+
     .home{
         flex-direction: column;
     }
@@ -502,7 +507,7 @@ box-shadow: 0 0 8px rgba(0,0,0,0.2);
     }
 
     .home__right{
-        width: 85%;
+        width: 90%;
         height: 300px;
     }
  
@@ -515,8 +520,10 @@ box-shadow: 0 0 8px rgba(0,0,0,0.2);
     }
 
     .best-sales__product span {
-        font-size: 18px;
+        font-size: 14px;
         text-align: center;
+        letter-spacing: 1px;
+        padding: 4px;
     }
 
     .div3{
